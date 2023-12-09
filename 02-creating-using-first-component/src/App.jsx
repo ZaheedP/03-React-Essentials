@@ -4,16 +4,14 @@ import Examples from './components/Examples.jsx';
 
 
 function App() {
-  console.log("Hello World! - ", EXAMPLES);
 
   return (
     <div>
       <Header />
       <main>
-        <h2>Time to get started!</h2>
+        <CoreConcepts />
+        <Examples />
       </main>
-      <CoreConcepts />
-      <Examples />
     </div>
   );
 }
